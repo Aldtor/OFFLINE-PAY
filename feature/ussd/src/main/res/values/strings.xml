@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ussd_accessibility_label">OfflinePay Auto-Pay (*99#)</string>
+    <string name="ussd_accessibility_summary">Auto-fills the *99# payment menus so you only enter your UPI PIN.</string>
+    <string name="ussd_accessibility_description">Lets OfflinePay complete an offline UPI payment for you: it reads the *99# menu screens and types the Send Money option, the payee UPI ID, and the amount, then stops so you can enter your UPI PIN. It never reads or enters your PIN, and only acts while you are making a payment in OfflinePay.</string>
+</resources>

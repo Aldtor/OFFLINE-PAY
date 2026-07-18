@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Data extraction rules for Android 12+ (API 31+).
+    Excludes sensitive data from both cloud backup and device-to-device transfer.
+    See: https://developer.android.com/guide/topics/data/testingbackup#xml-format
+-->
+<data-extraction-rules>
+    <cloud-backup>
+        <exclude domain="database" path="offlinepay.db" />
+        <exclude domain="database" path="offlinepay.db-shm" />
+        <exclude domain="database" path="offlinepay.db-wal" />
+        <exclude domain="sharedpref" path="offlinepay_encrypted_prefs.xml" />
+        <exclude domain="sharedpref" path="androidx.security.crypto.EncryptedSharedPreferences" />
+        <exclude domain="sharedpref" path="." />
+    </cloud-backup>
+    <device-transfer>
+        <exclude domain="database" path="offlinepay.db" />
+        <exclude domain="database" path="offlinepay.db-shm" />
+        <exclude domain="database" path="offlinepay.db-wal" />
+        <exclude domain="sharedpref" path="offlinepay_encrypted_prefs.xml" />
+        <exclude domain="sharedpref" path="." />
+    </device-transfer>
+</data-extraction-rules>

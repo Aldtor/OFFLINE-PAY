@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Backup exclusion rules for OfflinePay.
+    Excludes encrypted database and preferences from Android Auto-Backup.
+    See: https://developer.android.com/guide/topics/data/autobackup
+-->
+<full-backup-content>
+    <!-- Exclude encrypted transaction database -->
+    <exclude domain="database" path="offlinepay.db" />
+    <exclude domain="database" path="offlinepay.db-shm" />
+    <exclude domain="database" path="offlinepay.db-wal" />
+    <!-- Exclude encrypted shared preferences -->
+    <exclude domain="sharedpref" path="offlinepay_encrypted_prefs.xml" />
+    <exclude domain="sharedpref" path="androidx.security.crypto.EncryptedSharedPreferences" />
+    <!-- Exclude all shared preferences as a precaution -->
+    <exclude domain="sharedpref" path="." />
+</full-backup-content>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- ── Permissions ─────────────────────────────────────────────────────── -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <!-- CALL_PHONE: required for TelephonyManager.sendUssdRequest() (Req 5.1) and 123PAY ACTION_CALL (Req 6.1) -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <!-- READ_PHONE_STATE: required for SubscriptionManager SIM detection (Req 3.1) -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- INTERNET: used only for optional background services — analytics sync,
+         Play Integrity refresh, crash reporting. Never for payment flows (Req 1.8) -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- Camera is optional at install time — rationale shown in onboarding (Req 2.7) -->
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+    <!-- Telephony is required — app has no function without a SIM card (Req 3.5) -->
+    <uses-feature android:name="android.hardware.telephony" android:required="true" />
+
+    <application
+        android:name=".OfflinePayApplication"
+        android:allowBackup="false"
+        android:fullBackupContent="@xml/backup_rules"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.OfflinePay"
+        android:hardwareAccelerated="true">
+
+        <!--
+            Disable WorkManager's default startup initializer so OfflinePayApplication
+            (which implements Configuration.Provider) can supply the Hilt-aware
+            HiltWorkerFactory instead. Without this removal WorkManager initializes
+            before Hilt is ready and @HiltWorker / @AssistedInject workers crash.
+            See: https://developer.android.com/topic/libraries/architecture/workmanager/advanced/custom-configuration
+        -->
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="${applicationId}.androidx-startup"
+            android:exported="false"
+            tools:node="merge">
+            <meta-data
+                android:name="androidx.work.WorkManagerInitializer"
+                android:value="androidx.startup"
+                tools:node="remove" />
+        </provider>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="unspecified"
+            android:windowSoftInputMode="adjustResize"
+            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <!-- Deep link: offlinepay://scan (Task 21.3) -->
+            <!-- No autoVerify: App Links verification only applies to http/https,
+                 so it is a no-op on this custom scheme. -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="offlinepay" android:host="scan" />
+            </intent-filter>
+            <!-- Deep link: offlinepay://history/{transactionId} (Task 21.3) -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="offlinepay" android:host="history" />
+            </intent-filter>
+        </activity>
+
+        <!-- FileProvider for PDF/CSV export sharing via Android share sheet (Task 30.3) -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_provider_paths" />
+        </provider>
+
+    </application>
+
+</manifest>

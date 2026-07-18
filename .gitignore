@@ -1,0 +1,42 @@
+*.iml
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+**/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+*.jks
+*.keystore
+google-services.json
+
+# JVM crash and replay logs
+hs_err_pid*.log
+replay_pid*.log
+
+# Build/debug log text files
+*.txt
+
+# Temp batch/powershell scripts
+_run_build.bat
+run_asm.bat
+run_bl.bat
+run_build.bat
+run_test.bat
+trace_build.bat
+build_data.ps1
+build_full.ps1
+scan_all_zips.ps1
+scan_jars.ps1
+scan_modules.ps1
+scan_tf.ps1
+
+# Generated/temp files
+*.vsix
+_sim_test.png
+_wd.xml
+
+# Claude/Kiro config
+.claude/
+.kiro/

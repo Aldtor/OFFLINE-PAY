@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App name -->
+    <string name="app_name">OfflinePay</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">OfflinePay</string>
+    <string name="dashboard_scan_pay">à¤¸à¥à¤•à¥ˆà¤¨ à¤•à¤°à¥‡à¤‚ à¤”à¤° à¤­à¥à¤—à¤¤à¤¾à¤¨ à¤•à¤°à¥‡à¤‚</string>
+    <string name="dashboard_today">à¤†à¤œ</string>
+    <string name="dashboard_this_month">à¤‡à¤¸ à¤®à¤¹à¥€à¤¨à¥‡</string>
+    <string name="dashboard_payments_count">%d à¤­à¥à¤—à¤¤à¤¾à¤¨</string>
+    <string name="dashboard_last_payment">à¤…à¤‚à¤¤à¤¿à¤® à¤­à¥à¤—à¤¤à¤¾à¤¨</string>
+    <string name="dashboard_recent_merchants">à¤¹à¤¾à¤² à¤•à¥‡ à¤µà¥à¤¯à¤¾à¤ªà¤¾à¤°à¥€</string>
+    <string name="dashboard_favourite_merchants">à¤ªà¤¸à¤‚à¤¦à¥€à¤¦à¤¾ à¤µà¥à¤¯à¤¾à¤ªà¤¾à¤°à¥€</string>
+    <string name="dashboard_no_payments">à¤…à¤­à¥€ à¤¤à¤• à¤•à¥‹à¤ˆ à¤­à¥à¤—à¤¤à¤¾à¤¨ à¤¨à¤¹à¥€à¤‚à¥¤ à¤¶à¥à¤°à¥‚ à¤•à¤°à¤¨à¥‡ à¤•à¥‡ à¤²à¤¿à¤ QR à¤•à¥‹à¤¡ à¤¸à¥à¤•à¥ˆà¤¨ à¤•à¤°à¥‡à¤‚!</string>
+    <string name="dashboard_no_recent_merchants">à¤•à¥‹à¤ˆ à¤¹à¤¾à¤² à¤•à¤¾ à¤µà¥à¤¯à¤¾à¤ªà¤¾à¤°à¥€ à¤¨à¤¹à¥€à¤‚</string>
+    <string name="dashboard_ussd_pay123_available">USSD à¤”à¤° 123PAY à¤‰à¤ªà¤²à¤¬à¥à¤§</string>
+    <string name="dashboard_ussd_available">USSD à¤‰à¤ªà¤²à¤¬à¥à¤§</string>
+    <string name="dashboard_pay123_available">123PAY à¤‰à¤ªà¤²à¤¬à¥à¤§</string>
+    <string name="dashboard_no_service">à¤•à¥‹à¤ˆ à¤¸à¥‡à¤µà¤¾ à¤¨à¤¹à¥€à¤‚</string>
+    <string name="dashboard_connectivity_online">à¤†à¤ª à¤‘à¤¨à¤²à¤¾à¤‡à¤¨ à¤¹à¥ˆà¤‚à¥¤ OfflinePay à¤¬à¤¿à¤¨à¤¾ à¤‡à¤‚à¤Ÿà¤°à¤¨à¥‡à¤Ÿ à¤•à¥‡ à¤•à¤¾à¤® à¤•à¤°à¤¤à¤¾ à¤¹à¥ˆ â€” USSD à¤”à¤° IVR à¤¸à¥‡à¤²à¥à¤²à¤° à¤¨à¥‡à¤Ÿà¤µà¤°à¥à¤• à¤•à¤¾ à¤‰à¤ªà¤¯à¥‹à¤— à¤•à¤°à¤¤à¥‡ à¤¹à¥ˆà¤‚à¥¤</string>
+    <string name="dashboard_security_stale">à¤¸à¥à¤°à¤•à¥à¤·à¤¾ à¤œà¤¾à¤‚à¤š à¤ªà¥à¤°à¤¾à¤¨à¥€ à¤¹à¥ˆà¥¤ à¤°à¤¿à¤«à¥à¤°à¥‡à¤¶ à¤•à¤°à¤¨à¥‡ à¤•à¥‡ à¤²à¤¿à¤ à¤‡à¤‚à¤Ÿà¤°à¤¨à¥‡à¤Ÿ à¤¸à¥‡ à¤œà¥à¤¡à¤¼à¥‡à¤‚à¥¤</string>
+    <string name="dashboard_security_very_stale">à¤¸à¥à¤°à¤•à¥à¤·à¤¾ à¤œà¤¾à¤‚à¤š à¤¬à¤¹à¥à¤¤ à¤ªà¥à¤°à¤¾à¤¨à¥€ à¤¹à¥ˆà¥¤ à¤•à¥ƒà¤ªà¤¯à¤¾ à¤‡à¤‚à¤Ÿà¤°à¤¨à¥‡à¤Ÿ à¤¸à¥‡ à¤œà¥à¤¡à¤¼à¥‡à¤‚à¥¤</string>
+
+    <!-- Scanner -->
+    <string name="scanner_title">QR à¤•à¥‹à¤¡ à¤¸à¥à¤•à¥ˆà¤¨ à¤•à¤°à¥‡à¤‚</string>
+    <string name="scanner_torch_on">à¤«à¥à¤²à¥ˆà¤¶à¤²à¤¾à¤‡à¤Ÿ à¤¬à¤‚à¤¦ à¤•à¤°à¥‡à¤‚</string>
+    <string name="scanner_torch_off">à¤«à¥à¤²à¥ˆà¤¶à¤²à¤¾à¤‡à¤Ÿ à¤šà¤¾à¤²à¥‚ à¤•à¤°à¥‡à¤‚</string>
+    <string name="scanner_permission_required">QR à¤•à¥‹à¤¡ à¤¸à¥à¤•à¥ˆà¤¨ à¤•à¤°à¤¨à¥‡ à¤•à¥‡ à¤²à¤¿à¤ à¤•à¥ˆà¤®à¤°à¤¾ à¤…à¤¨à¥à¤®à¤¤à¤¿ à¤†à¤µà¤¶à¥à¤¯à¤• à¤¹à¥ˆ</string>
+    <string name="scanner_grant_permission">à¤…à¤¨à¥à¤®à¤¤à¤¿ à¤¦à¥‡à¤‚</string>
+    <string name="scanner_non_upi_qr">à¤—à¥ˆà¤°-UPI QR à¤•à¥‹à¤¡</string>
+    <string name="scanner_invalid_qr">à¤…à¤®à¤¾à¤¨à¥à¤¯ QR à¤•à¥‹à¤¡</string>
+    <string name="scanner_rescan">à¤«à¤¿à¤° à¤¸à¥‡ à¤¸à¥à¤•à¥ˆà¤¨ à¤•à¤°à¥‡à¤‚</string>
+
+    <!-- Payment Confirmation -->
+    <string name="payment_confirm_title">à¤­à¥à¤—à¤¤à¤¾à¤¨ à¤•à¥€ à¤ªà¥à¤·à¥à¤Ÿà¤¿ à¤•à¤°à¥‡à¤‚</string>
+    <string name="payment_confirm_amount_label">à¤°à¤¾à¤¶à¤¿ à¤°à¥à¤ªà¤¯à¥‡ à¤®à¥‡à¤‚</string>
+    <string name="payment_confirm_note_label">à¤²à¥‡à¤¨-à¤¦à¥‡à¤¨ à¤¨à¥‹à¤Ÿ (à¤µà¥ˆà¤•à¤²à¥à¤ªà¤¿à¤•)</string>
+    <string name="payment_confirm_button">à¤­à¥à¤—à¤¤à¤¾à¤¨ à¤•à¥€ à¤ªà¥à¤·à¥à¤Ÿà¤¿ à¤•à¤°à¥‡à¤‚</string>
+    <string name="payment_confirm_method">à¤­à¥à¤—à¤¤à¤¾à¤¨ à¤µà¤¿à¤§à¤¿</string>
+    <string name="payment_confirm_sim">à¤¸à¤¿à¤® à¤•à¤¾à¤°à¥à¤¡</string>
+    <string name="payment_validation_zero">à¤°à¤¾à¤¶à¤¿ à¤¶à¥‚à¤¨à¥à¤¯ à¤¸à¥‡ à¤…à¤§à¤¿à¤• à¤¹à¥‹à¤¨à¥€ à¤šà¤¾à¤¹à¤¿à¤</string>
+    <string name="payment_validation_negative">à¤°à¤¾à¤¶à¤¿ à¤‹à¤£à¤¾à¤¤à¥à¤®à¤• à¤¨à¤¹à¥€à¤‚ à¤¹à¥‹ à¤¸à¤•à¤¤à¥€</string>
+    <string name="payment_validation_exceeds_limit">à¤°à¤¾à¤¶à¤¿ â‚¹1,00,000 NPCI à¤¸à¥€à¤®à¤¾ à¤¸à¥‡ à¤…à¤§à¤¿à¤• à¤¹à¥ˆ</string>
+
+    <!-- USSD -->
+    <string name="ussd_title">USSD à¤­à¥à¤—à¤¤à¤¾à¤¨</string>
+    <string name="ussd_processing">USSD à¤…à¤¨à¥à¤°à¥‹à¤§ à¤ªà¥à¤°à¤•à¥à¤°à¤¿à¤¯à¤¾ à¤®à¥‡à¤‚â€¦</string>
+    <string name="ussd_cancel">à¤°à¤¦à¥à¤¦ à¤•à¤°à¥‡à¤‚</string>
+    <string name="ussd_timeout">à¤¸à¤¤à¥à¤° à¤¸à¤®à¤¯ à¤¸à¤®à¤¾à¤ªà¥à¤¤</string>
+    <string name="ussd_fallback_offer">à¤‡à¤¸à¤•à¥‡ à¤¬à¤œà¤¾à¤¯ 123PAY à¤†à¤œà¤¼à¤®à¤¾à¤à¤‚?</string>
+
+    <!-- 123PAY -->
+    <string name="pay123_title">123PAY à¤­à¥à¤—à¤¤à¤¾à¤¨</string>
+    <string name="pay123_call_in_progress">à¤•à¥‰à¤² à¤œà¤¾à¤°à¥€ à¤¹à¥ˆ</string>
+    <string name="pay123_do_not_close">à¤‡à¤¸ à¤¸à¥à¤•à¥à¤°à¥€à¤¨ à¤•à¥‹ à¤¬à¤‚à¤¦ à¤¨ à¤•à¤°à¥‡à¤‚</string>
+    <string name="pay123_did_payment_succeed">à¤•à¥à¤¯à¤¾ à¤†à¤ªà¤•à¤¾ à¤­à¥à¤—à¤¤à¤¾à¤¨ à¤¸à¤«à¤² à¤°à¤¹à¤¾?</string>
+    <string name="pay123_yes_succeeded">à¤¹à¤¾à¤, à¤¸à¤«à¤² à¤°à¤¹à¤¾</string>
+    <string name="pay123_no_failed">à¤¨à¤¹à¥€à¤‚, à¤µà¤¿à¤«à¤² à¤°à¤¹à¤¾</string>
+    <string name="pay123_not_sure">à¤®à¥à¤à¥‡ à¤ªà¤•à¥à¤•à¤¾ à¤¨à¤¹à¥€à¤‚ à¤ªà¤¤à¤¾</string>
+
+    <!-- Payment Result -->
+    <string name="payment_success_title">à¤­à¥à¤—à¤¤à¤¾à¤¨ à¤¸à¤«à¤²!</string>
+    <string name="payment_success_view_receipt">à¤°à¤¸à¥€à¤¦ à¤¦à¥‡à¤–à¥‡à¤‚</string>
+    <string name="payment_success_pay_again">à¤«à¤¿à¤° à¤¸à¥‡ à¤­à¥à¤—à¤¤à¤¾à¤¨ à¤•à¤°à¥‡à¤‚</string>
+    <string name="payment_failure_title">à¤­à¥à¤—à¤¤à¤¾à¤¨ à¤µà¤¿à¤«à¤²</string>
+    <string name="payment_failure_retry">à¤ªà¥à¤¨à¤ƒ à¤ªà¥à¤°à¤¯à¤¾à¤¸ à¤•à¤°à¥‡à¤‚</string>
+    <string name="payment_failure_try_pay123">123PAY à¤†à¤œà¤¼à¤®à¤¾à¤à¤‚</string>
+    <string name="payment_failure_try_ussd">USSD à¤†à¤œà¤¼à¤®à¤¾à¤à¤‚</string>
+    <string name="payment_unknown_title">à¤­à¥à¤—à¤¤à¤¾à¤¨ à¤¸à¥à¤¥à¤¿à¤¤à¤¿ à¤…à¤œà¥à¤žà¤¾à¤¤</string>
+    <string name="payment_unknown_mark_success">à¤¸à¤«à¤² à¤•à¥‡ à¤°à¥‚à¤ª à¤®à¥‡à¤‚ à¤šà¤¿à¤¹à¥à¤¨à¤¿à¤¤ à¤•à¤°à¥‡à¤‚</string>
+    <string name="payment_unknown_mark_failed">à¤µà¤¿à¤«à¤² à¤•à¥‡ à¤°à¥‚à¤ª à¤®à¥‡à¤‚ à¤šà¤¿à¤¹à¥à¤¨à¤¿à¤¤ à¤•à¤°à¥‡à¤‚</string>
+
+    <!-- Transaction details -->
+    <string name="receipt_title">à¤²à¥‡à¤¨-à¤¦à¥‡à¤¨ à¤°à¤¸à¥€à¤¦</string>
+    <string name="receipt_transaction_id">à¤²à¥‡à¤¨-à¤¦à¥‡à¤¨ à¤†à¤ˆà¤¡à¥€</string>
+    <string name="receipt_date_time">à¤¦à¤¿à¤¨à¤¾à¤‚à¤• à¤”à¤° à¤¸à¤®à¤¯</string>
+    <string name="receipt_merchant">à¤µà¥à¤¯à¤¾à¤ªà¤¾à¤°à¥€</string>
+    <string name="receipt_amount">à¤°à¤¾à¤¶à¤¿</string>
+    <string name="receipt_method">à¤µà¤¿à¤§à¤¿</string>
+    <string name="receipt_method_ussd">USSD à¤¦à¥à¤µà¤¾à¤°à¤¾ à¤­à¥à¤—à¤¤à¤¾à¤¨</string>
+    <string name="receipt_method_pay123">123PAY à¤¦à¥à¤µà¤¾à¤°à¤¾ à¤­à¥à¤—à¤¤à¤¾à¤¨</string>
+    <string name="receipt_operator">à¤‘à¤ªà¤°à¥‡à¤Ÿà¤°</string>
+    <string name="receipt_sim_slot">à¤¸à¤¿à¤® à¤¸à¥à¤²à¥‰à¤Ÿ</string>
+    <string name="receipt_reference">à¤¸à¤‚à¤¦à¤°à¥à¤­</string>
+    <string name="receipt_category_code">à¤¶à¥à¤°à¥‡à¤£à¥€ à¤•à¥‹à¤¡</string>
+    <string name="receipt_share">à¤°à¤¸à¥€à¤¦ à¤¸à¤¾à¤à¤¾ à¤•à¤°à¥‡à¤‚</string>
+    <string name="receipt_delete">à¤²à¥‡à¤¨-à¤¦à¥‡à¤¨ à¤¹à¤Ÿà¤¾à¤à¤‚</string>
+    <string name="receipt_delete_confirm_title">à¤²à¥‡à¤¨-à¤¦à¥‡à¤¨ à¤¹à¤Ÿà¤¾à¤à¤‚</string>
+    <string name="receipt_delete_confirm_message">à¤•à¥à¤¯à¤¾ à¤†à¤ª à¤µà¤¾à¤•à¤ˆ à¤‡à¤¸ à¤²à¥‡à¤¨-à¤¦à¥‡à¤¨ à¤°à¤¿à¤•à¥‰à¤°à¥à¤¡ à¤•à¥‹ à¤¹à¤Ÿà¤¾à¤¨à¤¾ à¤šà¤¾à¤¹à¤¤à¥‡ à¤¹à¥ˆà¤‚? à¤¯à¤¹ à¤•à¥à¤°à¤¿à¤¯à¤¾ à¤ªà¥‚à¤°à¥à¤µà¤µà¤¤ à¤¨à¤¹à¥€à¤‚ à¤•à¥€ à¤œà¤¾ à¤¸à¤•à¤¤à¥€à¥¤</string>
+    <string name="receipt_delete_confirm">à¤¹à¤Ÿà¤¾à¤à¤‚</string>
+    <string name="receipt_cancel">à¤°à¤¦à¥à¤¦ à¤•à¤°à¥‡à¤‚</string>
+
+    <!-- History -->
+    <string name="history_title">à¤²à¥‡à¤¨-à¤¦à¥‡à¤¨ à¤‡à¤¤à¤¿à¤¹à¤¾à¤¸</string>
+    <string name="history_search_hint">à¤¨à¤¾à¤®, UPI ID à¤¸à¥‡ à¤–à¥‹à¤œà¥‡à¤‚â€¦</string>
+    <string name="history_no_payments">à¤…à¤­à¥€ à¤¤à¤• à¤•à¥‹à¤ˆ à¤­à¥à¤—à¤¤à¤¾à¤¨ à¤¨à¤¹à¥€à¤‚\nà¤…à¤ªà¤¨à¤¾ à¤ªà¤¹à¤²à¤¾ à¤­à¥à¤—à¤¤à¤¾à¤¨ à¤•à¤°à¤¨à¥‡ à¤•à¥‡ à¤²à¤¿à¤ QR à¤•à¥‹à¤¡ à¤¸à¥à¤•à¥ˆà¤¨ à¤•à¤°à¥‡à¤‚!</string>
+    <string name="history_no_results">à¤•à¥‹à¤ˆ à¤ªà¤°à¤¿à¤£à¤¾à¤® à¤¨à¤¹à¥€à¤‚ à¤®à¤¿à¤²à¤¾\nà¤…à¤ªà¤¨à¥‡ à¤«à¤¼à¤¿à¤²à¥à¤Ÿà¤° à¤¯à¤¾ à¤–à¥‹à¤œ à¤•à¥à¤µà¥‡à¤°à¥€ à¤¸à¤®à¤¾à¤¯à¥‹à¤œà¤¿à¤¤ à¤•à¤°à¥‡à¤‚à¥¤</string>
+    <string name="history_export">à¤¨à¤¿à¤°à¥à¤¯à¤¾à¤¤</string>
+    <string name="history_export_complete">à¤¨à¤¿à¤°à¥à¤¯à¤¾à¤¤ à¤ªà¥‚à¤°à¥à¤£</string>
+    <string name="history_export_failed">à¤¨à¤¿à¤°à¥à¤¯à¤¾à¤¤ à¤µà¤¿à¤«à¤²</string>
+
+    <!-- Merchant -->
+    <string name="merchant_title">à¤µà¥à¤¯à¤¾à¤ªà¤¾à¤°à¥€ à¤ªà¥à¤°à¥‹à¤«à¤¼à¤¾à¤‡à¤²</string>
+    <string name="merchant_transactions">à¤²à¥‡à¤¨-à¤¦à¥‡à¤¨</string>
+    <string name="merchant_category">à¤¶à¥à¤°à¥‡à¤£à¥€</string>
+    <string name="merchant_category_default">à¤µà¥à¤¯à¤¾à¤ªà¤¾à¤°à¥€</string>
+    <string name="merchant_no_transactions">à¤‡à¤¸ à¤µà¥à¤¯à¤¾à¤ªà¤¾à¤°à¥€ à¤•à¥‡ à¤¸à¤¾à¤¥ à¤•à¥‹à¤ˆ à¤²à¥‡à¤¨-à¤¦à¥‡à¤¨ à¤¨à¤¹à¥€à¤‚</string>
+    <string name="merchant_add_favourite">à¤ªà¤¸à¤‚à¤¦à¥€à¤¦à¤¾ à¤®à¥‡à¤‚ à¤œà¥‹à¤¡à¤¼à¥‡à¤‚</string>
+    <string name="merchant_remove_favourite">à¤ªà¤¸à¤‚à¤¦à¥€à¤¦à¤¾ à¤¸à¥‡ à¤¹à¤Ÿà¤¾à¤à¤‚</string>
+    <string name="merchant_verification_pending">à¤¸à¤¤à¥à¤¯à¤¾à¤ªà¤¨ à¤²à¤‚à¤¬à¤¿à¤¤</string>
+
+    <!-- Settings -->
+    <string name="settings_title">à¤¸à¥‡à¤Ÿà¤¿à¤‚à¤—à¥à¤¸</string>
+    <string name="settings_payment">à¤­à¥à¤—à¤¤à¤¾à¤¨</string>
+    <string name="settings_routing_priority">à¤°à¥‚à¤Ÿà¤¿à¤‚à¤— à¤ªà¥à¤°à¤¾à¤¥à¤®à¤¿à¤•à¤¤à¤¾</string>
+    <string name="settings_routing_subtitle">à¤ªà¥à¤°à¤¤à¤¿ à¤‘à¤ªà¤°à¥‡à¤Ÿà¤° à¤­à¥à¤—à¤¤à¤¾à¤¨ à¤µà¤¿à¤§à¤¿ à¤•à¥à¤°à¤® à¤•à¥‰à¤¨à¥à¤«à¤¼à¤¿à¤—à¤° à¤•à¤°à¥‡à¤‚</string>
+    <string name="settings_sim_preference">à¤¸à¤¿à¤® à¤µà¤°à¥€à¤¯à¤¤à¤¾</string>
+    <string name="settings_sim_auto">à¤¸à¥à¤µà¤šà¤¾à¤²à¤¿à¤¤</string>
+    <string name="settings_override">à¤­à¥à¤—à¤¤à¤¾à¤¨ à¤µà¤¿à¤§à¤¿ à¤“à¤µà¤°à¤°à¤¾à¤‡à¤¡</string>
+    <string name="settings_override_auto">à¤¸à¥à¤µà¤šà¤¾à¤²à¤¿à¤¤ (à¤…à¤¨à¥à¤¶à¤‚à¤¸à¤¿à¤¤)</string>
+    <string name="settings_appearance">à¤¦à¤¿à¤–à¤¾à¤µà¤Ÿ</string>
+    <string name="settings_theme">à¤¥à¥€à¤®</string>
+    <string name="settings_theme_system">à¤¸à¤¿à¤¸à¥à¤Ÿà¤® à¤¡à¤¿à¤«à¤¼à¥‰à¤²à¥à¤Ÿ</string>
+    <string name="settings_theme_light">à¤²à¤¾à¤‡à¤Ÿ</string>
+    <string name="settings_theme_dark">à¤¡à¤¾à¤°à¥à¤•</string>
+    <string name="settings_language">à¤­à¤¾à¤·à¤¾</string>
+    <string name="settings_language_english">English</string>
+    <string name="settings_language_hindi">à¤¹à¤¿à¤‚à¤¦à¥€</string>
+    <string name="settings_security_privacy">à¤¸à¥à¤°à¤•à¥à¤·à¤¾ à¤”à¤° à¤—à¥‹à¤ªà¤¨à¥€à¤¯à¤¤à¤¾</string>
+    <string name="settings_permissions">à¤…à¤¨à¥à¤®à¤¤à¤¿à¤¯à¤¾à¤‚</string>
+    <string name="settings_permissions_subtitle">à¤•à¥ˆà¤®à¤°à¤¾, à¤«à¤¼à¥‹à¤¨, à¤¸à¤¿à¤® à¤à¤•à¥à¤¸à¥‡à¤¸</string>
+    <string name="settings_security_status">à¤¸à¥à¤°à¤•à¥à¤·à¤¾ à¤¸à¥à¤¥à¤¿à¤¤à¤¿</string>
+    <string name="settings_security_subtitle">à¤‡à¤‚à¤Ÿà¥€à¤—à¥à¤°à¤¿à¤Ÿà¥€ à¤šà¥‡à¤• à¤¸à¥à¤¥à¤¿à¤¤à¤¿ à¤¦à¥‡à¤–à¥‡à¤‚</string>
+    <string name="settings_about">OfflinePay à¤•à¥‡ à¤¬à¤¾à¤°à¥‡ à¤®à¥‡à¤‚</string>
+    <string name="settings_about_description">OfflinePay USSD (*99#) à¤”à¤° 123PAY (IVR) à¤•à¤¾ à¤‰à¤ªà¤¯à¥‹à¤— à¤•à¤°à¤•à¥‡ à¤¬à¤¿à¤¨à¤¾ à¤‡à¤‚à¤Ÿà¤°à¤¨à¥‡à¤Ÿ à¤•à¥‡ UPI à¤­à¥à¤—à¤¤à¤¾à¤¨ à¤¸à¤•à¥à¤·à¤® à¤•à¤°à¤¤à¤¾ à¤¹à¥ˆà¥¤</string>
+    <string name="settings_privacy_policy">à¤—à¥‹à¤ªà¤¨à¥€à¤¯à¤¤à¤¾ à¤¨à¥€à¤¤à¤¿</string>
+    <string name="settings_licenses">à¤“à¤ªà¤¨ à¤¸à¥‹à¤°à¥à¤¸ à¤²à¤¾à¤‡à¤¸à¥‡à¤‚à¤¸</string>
+    <string name="settings_integrity_refresh">à¤‡à¤‚à¤Ÿà¥€à¤—à¥à¤°à¤¿à¤Ÿà¥€ à¤šà¥‡à¤• à¤°à¤¿à¤«à¥à¤°à¥‡à¤¶ à¤•à¤°à¥‡à¤‚</string>
+    <string name="settings_integrity_refreshed">à¤‡à¤‚à¤Ÿà¥€à¤—à¥à¤°à¤¿à¤Ÿà¥€ à¤šà¥‡à¤• à¤°à¤¿à¤«à¥à¤°à¥‡à¤¶ à¤¹à¥‹ à¤—à¤¯à¤¾</string>
+    <string name="settings_integrity_failed">à¤‡à¤‚à¤Ÿà¥€à¤—à¥à¤°à¤¿à¤Ÿà¥€ à¤šà¥‡à¤• à¤µà¤¿à¤«à¤²à¥¤ à¤•à¥ƒà¤ªà¤¯à¤¾ à¤‘à¤¨à¤²à¤¾à¤‡à¤¨ à¤¹à¥‹à¤¨à¥‡ à¤ªà¤° à¤ªà¥à¤°à¤¯à¤¾à¤¸ à¤•à¤°à¥‡à¤‚à¥¤</string>
+
+    <!-- Permissions -->
+    <string name="permission_camera">à¤•à¥ˆà¤®à¤°à¤¾</string>
+    <string name="permission_camera_desc">QR à¤•à¥‹à¤¡ à¤¸à¥à¤•à¥ˆà¤¨à¤¿à¤‚à¤— à¤•à¥‡ à¤²à¤¿à¤ à¤†à¤µà¤¶à¥à¤¯à¤•</string>
+    <string name="permission_phone">à¤«à¤¼à¥‹à¤¨ (CALL_PHONE)</string>
+    <string name="permission_phone_desc">USSD à¤”à¤° 123PAY à¤•à¥‰à¤² à¤•à¥‡ à¤²à¤¿à¤ à¤†à¤µà¤¶à¥à¤¯à¤•</string>
+    <string name="permission_read_phone_state">à¤«à¤¼à¥‹à¤¨ à¤¸à¥à¤¥à¤¿à¤¤à¤¿ (READ_PHONE_STATE)</string>
+    <string name="permission_read_phone_state_desc">à¤¸à¤¿à¤® à¤ªà¤¹à¤šà¤¾à¤¨ à¤•à¥‡ à¤²à¤¿à¤ à¤†à¤µà¤¶à¥à¤¯à¤•</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_welcome">OfflinePay à¤®à¥‡à¤‚ à¤†à¤ªà¤•à¤¾ à¤¸à¥à¤µà¤¾à¤—à¤¤ à¤¹à¥ˆ</string>
+    <string name="onboarding_offline_payments">à¤¬à¤¿à¤¨à¤¾ à¤‡à¤‚à¤Ÿà¤°à¤¨à¥‡à¤Ÿ à¤•à¥‡ UPI à¤­à¥à¤—à¤¤à¤¾à¤¨ à¤•à¤°à¥‡à¤‚</string>
+    <string name="onboarding_how_it_works">à¤¯à¤¹ à¤•à¥ˆà¤¸à¥‡ à¤•à¤¾à¤® à¤•à¤°à¤¤à¤¾ à¤¹à¥ˆ</string>
+    <string name="onboarding_step1">à¤•à¥‹à¤ˆ à¤­à¥€ UPI QR à¤•à¥‹à¤¡ à¤¸à¥à¤•à¥ˆà¤¨ à¤•à¤°à¥‡à¤‚</string>
+    <string name="onboarding_step2">à¤­à¥à¤—à¤¤à¤¾à¤¨ USSD à¤¯à¤¾ IVR à¤•à¥‰à¤² à¤¦à¥à¤µà¤¾à¤°à¤¾ à¤ªà¥à¤°à¥‹à¤¸à¥‡à¤¸ à¤¹à¥‹à¤¤à¤¾ à¤¹à¥ˆ</string>
+    <string name="onboarding_step3">à¤‡à¤‚à¤Ÿà¤°à¤¨à¥‡à¤Ÿ à¤•à¤¨à¥‡à¤•à¥à¤¶à¤¨ à¤•à¥€ à¤†à¤µà¤¶à¥à¤¯à¤•à¤¤à¤¾ à¤¨à¤¹à¥€à¤‚!</string>
+    <string name="onboarding_continue">à¤œà¤¾à¤°à¥€ à¤°à¤–à¥‡à¤‚</string>
+    <string name="onboarding_get_started">à¤¶à¥à¤°à¥‚ à¤•à¤°à¥‡à¤‚</string>
+
+    <!-- Common -->
+    <string name="back">à¤µà¤¾à¤ªà¤¸</string>
+    <string name="retry">à¤ªà¥à¤¨à¤ƒ à¤ªà¥à¤°à¤¯à¤¾à¤¸</string>
+    <string name="error_generic">à¤•à¥à¤› à¤—à¤²à¤¤ à¤¹à¥‹ à¤—à¤¯à¤¾à¥¤ à¤•à¥ƒà¤ªà¤¯à¤¾ à¤ªà¥à¤¨à¤ƒ à¤ªà¥à¤°à¤¯à¤¾à¤¸ à¤•à¤°à¥‡à¤‚à¥¤</string>
+    <string name="status_success">à¤¸à¤«à¤²</string>
+    <string name="status_failure">à¤µà¤¿à¤«à¤²</string>
+    <string name="status_pending">à¤²à¤‚à¤¬à¤¿à¤¤</string>
+    <string name="status_unknown">à¤…à¤œà¥à¤žà¤¾à¤¤</string>
+
+    <!-- Error messages -->
+    <string name="error_ussd_timeout">USSD à¤¸à¤¤à¥à¤° à¤¸à¤®à¤¯ à¤¸à¤®à¤¾à¤ªà¥à¤¤à¥¤ à¤•à¥ƒà¤ªà¤¯à¤¾ à¤ªà¥à¤¨à¤ƒ à¤ªà¥à¤°à¤¯à¤¾à¤¸ à¤•à¤°à¥‡à¤‚ à¤¯à¤¾ 123PAY à¤•à¤¾ à¤‰à¤ªà¤¯à¥‹à¤— à¤•à¤°à¥‡à¤‚à¥¤</string>
+    <string name="error_ussd_network">à¤•à¥‹à¤ˆ à¤¸à¥‡à¤²à¥à¤²à¤° à¤¸à¥‡à¤µà¤¾ à¤¨à¤¹à¥€à¤‚ à¤®à¤¿à¤²à¥€à¥¤ à¤…à¤ªà¤¨à¤¾ à¤¸à¤¿à¤® à¤”à¤° à¤¸à¤¿à¤—à¥à¤¨à¤² à¤œà¤¾à¤‚à¤šà¥‡à¤‚à¥¤</string>
+    <string name="error_ussd_permission">CALL_PHONE à¤…à¤¨à¥à¤®à¤¤à¤¿ à¤†à¤µà¤¶à¥à¤¯à¤•à¥¤ à¤•à¥ƒà¤ªà¤¯à¤¾ à¤¸à¥‡à¤Ÿà¤¿à¤‚à¤—à¥à¤¸ à¤®à¥‡à¤‚ à¤…à¤¨à¥à¤®à¤¤à¤¿ à¤¦à¥‡à¤‚à¥¤</string>
+    <string name="error_ussd_bank_declined">à¤¬à¥ˆà¤‚à¤• à¤¨à¥‡ à¤­à¥à¤—à¤¤à¤¾à¤¨ à¤…à¤¸à¥à¤µà¥€à¤•à¤¾à¤° à¤•à¤° à¤¦à¤¿à¤¯à¤¾à¥¤ à¤•à¥ƒà¤ªà¤¯à¤¾ à¤ªà¥à¤¨à¤ƒ à¤ªà¥à¤°à¤¯à¤¾à¤¸ à¤•à¤°à¥‡à¤‚à¥¤</string>
+    <string name="error_ussd_operator">à¤†à¤ªà¤•à¥‡ à¤‘à¤ªà¤°à¥‡à¤Ÿà¤° à¤¦à¥à¤µà¤¾à¤°à¤¾ USSD à¤­à¥à¤—à¤¤à¤¾à¤¨ à¤¸à¤®à¤°à¥à¤¥à¤¿à¤¤ à¤¨à¤¹à¥€à¤‚ à¤¹à¥ˆà¥¤</string>
+    <string name="error_pay123_call_failed">123PAY à¤•à¥‰à¤² à¤¶à¥à¤°à¥‚ à¤•à¤°à¤¨à¥‡ à¤®à¥‡à¤‚ à¤…à¤¸à¤®à¤°à¥à¤¥à¥¤ à¤…à¤ªà¤¨à¥€ à¤«à¤¼à¥‹à¤¨ à¤¸à¥‡à¤Ÿà¤¿à¤‚à¤—à¥à¤¸ à¤œà¤¾à¤‚à¤šà¥‡à¤‚à¥¤</string>
+    <string name="error_pay123_no_service">à¤šà¤¯à¤¨à¤¿à¤¤ à¤¸à¤¿à¤® à¤ªà¤° à¤•à¥‹à¤ˆ à¤µà¥‰à¤‡à¤¸ à¤¸à¥‡à¤µà¤¾ à¤‰à¤ªà¤²à¤¬à¥à¤§ à¤¨à¤¹à¥€à¤‚à¥¤</string>
+    <string name="error_no_sim">à¤•à¥‹à¤ˆ à¤¸à¤¿à¤® à¤•à¤¾à¤°à¥à¤¡ à¤¨à¤¹à¥€à¤‚ à¤®à¤¿à¤²à¤¾à¥¤ à¤•à¥ƒà¤ªà¤¯à¤¾ à¤¸à¤¿à¤® à¤¡à¤¾à¤²à¥‡à¤‚ à¤”à¤° à¤ªà¥à¤¨à¤ƒ à¤ªà¥à¤°à¤¯à¤¾à¤¸ à¤•à¤°à¥‡à¤‚à¥¤</string>
+    <string name="error_no_service">à¤šà¤¯à¤¨à¤¿à¤¤ à¤¸à¤¿à¤® à¤ªà¤° à¤•à¥‹à¤ˆ à¤¸à¥‡à¤²à¥à¤²à¤° à¤¸à¤¿à¤—à¥à¤¨à¤² à¤¨à¤¹à¥€à¤‚à¥¤ à¤•à¥ƒà¤ªà¤¯à¤¾ à¤•à¤µà¤°à¥‡à¤œ à¤µà¤¾à¤²à¥‡ à¤•à¥à¤·à¥‡à¤¤à¥à¤° à¤®à¥‡à¤‚ à¤œà¤¾à¤à¤‚à¥¤</string>
+    <string name="error_insufficient_funds">à¤†à¤ªà¤•à¥‡ à¤¬à¥ˆà¤‚à¤• à¤–à¤¾à¤¤à¥‡ à¤®à¥‡à¤‚ à¤…à¤ªà¤°à¥à¤¯à¤¾à¤ªà¥à¤¤ à¤¶à¥‡à¤·à¥¤</string>
+    <string name="error_all_methods_failed">à¤¸à¤­à¥€ à¤­à¥à¤—à¤¤à¤¾à¤¨ à¤µà¤¿à¤§à¤¿à¤¯à¤¾à¤‚ à¤µà¤¿à¤«à¤²à¥¤ à¤•à¥ƒà¤ªà¤¯à¤¾ à¤¬à¤¾à¤¦ à¤®à¥‡à¤‚ à¤ªà¥à¤¨à¤ƒ à¤ªà¥à¤°à¤¯à¤¾à¤¸ à¤•à¤°à¥‡à¤‚à¥¤</string>
+    <string name="error_payment_generic">à¤­à¥à¤—à¤¤à¤¾à¤¨ à¤µà¤¿à¤«à¤²à¥¤ à¤•à¥ƒà¤ªà¤¯à¤¾ à¤ªà¥à¤¨à¤ƒ à¤ªà¥à¤°à¤¯à¤¾à¤¸ à¤•à¤°à¥‡à¤‚à¥¤</string>
+
+    <!-- Security Blocked screen -->
+    <string name="security_blocked_title">सुरक्षा जांच विफल</string>
+    <string name="security_blocked_body">इस ऐप इंस्टॉलेशन की पुष्टि नहीं हो सकी। आपकी सुरक्षा के लिए भुगतान सुविधाएं अक्षम कर दी गई हैं।</string>
+    <string name="security_blocked_reinstall_hint">कृपया Google Play Store से OfflinePay को फिर से इंस्टॉल करें।</string>
+</resources>
+

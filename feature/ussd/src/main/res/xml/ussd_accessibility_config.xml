@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Configuration for UssdAccessibilityService.
+
+  The service auto-fills the *99# USSD payment menus (Send Money → UPI ID → amount) so
+  the user only enters their UPI PIN. It is dormant unless an OfflinePay payment session
+  is armed. It never reads or types the UPI PIN.
+
+  No packageNames filter is set: OEM telephony/dialer packages that render the USSD
+  dialog vary across devices, so the service listens broadly and gates its actions in
+  code on the armed session + dialog shape.
+-->
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accessibilityEventTypes="typeWindowStateChanged|typeWindowContentChanged"
+    android:accessibilityFeedbackType="feedbackGeneric"
+    android:accessibilityFlags="flagDefault"
+    android:canRetrieveWindowContent="true"
+    android:description="@string/ussd_accessibility_description"
+    android:summary="@string/ussd_accessibility_summary"
+    android:notificationTimeout="100" />

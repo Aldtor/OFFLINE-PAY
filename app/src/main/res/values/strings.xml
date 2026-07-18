@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App name -->
+    <string name="app_name">OfflinePay</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">OfflinePay</string>
+    <string name="dashboard_scan_pay">Scan &amp; Pay</string>
+    <string name="dashboard_today">Today</string>
+    <string name="dashboard_this_month">This Month</string>
+    <string name="dashboard_payments_count">%d payments</string>
+    <string name="dashboard_last_payment">Last Payment</string>
+    <string name="dashboard_recent_merchants">Recent Merchants</string>
+    <string name="dashboard_favourite_merchants">Favourite Merchants</string>
+    <string name="dashboard_no_payments">No payments yet. Scan a QR code to get started!</string>
+    <string name="dashboard_no_recent_merchants">No recent merchants</string>
+    <string name="dashboard_ussd_pay123_available">USSD &amp; 123PAY available</string>
+    <string name="dashboard_ussd_available">USSD available</string>
+    <string name="dashboard_pay123_available">123PAY available</string>
+    <string name="dashboard_no_service">No service</string>
+    <string name="dashboard_connectivity_online">You\'re online. OfflinePay works without internet — USSD &amp; IVR use cellular network.</string>
+    <string name="dashboard_security_stale">Security check is stale. Connect to the internet to refresh.</string>
+    <string name="dashboard_security_very_stale">Security check is very stale. Please connect to the internet.</string>
+
+    <!-- Scanner -->
+    <string name="scanner_title">Scan QR Code</string>
+    <string name="scanner_torch_on">Turn off flashlight</string>
+    <string name="scanner_torch_off">Turn on flashlight</string>
+    <string name="scanner_permission_required">Camera permission is required to scan QR codes</string>
+    <string name="scanner_grant_permission">Grant Permission</string>
+    <string name="scanner_non_upi_qr">Non-UPI QR Code</string>
+    <string name="scanner_invalid_qr">Invalid QR Code</string>
+    <string name="scanner_rescan">Rescan</string>
+
+    <!-- Payment Confirmation -->
+    <string name="payment_confirm_title">Confirm Payment</string>
+    <string name="payment_confirm_amount_label">Amount in rupees</string>
+    <string name="payment_confirm_note_label">Transaction Note (optional)</string>
+    <string name="payment_confirm_button">Confirm Payment</string>
+    <string name="payment_confirm_method">Payment Method</string>
+    <string name="payment_confirm_sim">SIM Card</string>
+    <string name="payment_validation_zero">Amount must be greater than zero</string>
+    <string name="payment_validation_negative">Amount cannot be negative</string>
+    <string name="payment_validation_exceeds_limit">Amount exceeds ₹1,00,000 NPCI limit</string>
+
+    <!-- USSD -->
+    <string name="ussd_title">USSD Payment</string>
+    <string name="ussd_processing">Processing USSD request…</string>
+    <string name="ussd_cancel">Cancel</string>
+    <string name="ussd_timeout">Session timed out</string>
+    <string name="ussd_fallback_offer">Try 123PAY instead?</string>
+
+    <!-- 123PAY -->
+    <string name="pay123_title">123PAY Payment</string>
+    <string name="pay123_call_in_progress">CALL IN PROGRESS</string>
+    <string name="pay123_do_not_close">Do not close this screen</string>
+    <string name="pay123_did_payment_succeed">Did your payment succeed?</string>
+    <string name="pay123_yes_succeeded">Yes, it succeeded</string>
+    <string name="pay123_no_failed">No, it failed</string>
+    <string name="pay123_not_sure">I\'m not sure</string>
+
+    <!-- Payment Result -->
+    <string name="payment_success_title">Payment Successful!</string>
+    <string name="payment_success_view_receipt">View Receipt</string>
+    <string name="payment_success_pay_again">Pay Again</string>
+    <string name="payment_failure_title">Payment Failed</string>
+    <string name="payment_failure_retry">Retry</string>
+    <string name="payment_failure_try_pay123">Try 123PAY</string>
+    <string name="payment_failure_try_ussd">Try USSD</string>
+    <string name="payment_unknown_title">Payment status unknown</string>
+    <string name="payment_unknown_mark_success">Mark as Succeeded</string>
+    <string name="payment_unknown_mark_failed">Mark as Failed</string>
+
+    <!-- Transaction details -->
+    <string name="receipt_title">Transaction Receipt</string>
+    <string name="receipt_transaction_id">Transaction ID</string>
+    <string name="receipt_date_time">Date &amp; Time</string>
+    <string name="receipt_merchant">Merchant</string>
+    <string name="receipt_amount">Amount</string>
+    <string name="receipt_method">Method</string>
+    <string name="receipt_method_ussd">Paid via USSD</string>
+    <string name="receipt_method_pay123">Paid via 123PAY</string>
+    <string name="receipt_operator">Operator</string>
+    <string name="receipt_sim_slot">SIM Slot</string>
+    <string name="receipt_reference">Reference</string>
+    <string name="receipt_category_code">Category Code</string>
+    <string name="receipt_share">Share receipt</string>
+    <string name="receipt_delete">Delete transaction</string>
+    <string name="receipt_delete_confirm_title">Delete Transaction</string>
+    <string name="receipt_delete_confirm_message">Are you sure you want to delete this transaction record? This action cannot be undone.</string>
+    <string name="receipt_delete_confirm">Delete</string>
+    <string name="receipt_cancel">Cancel</string>
+
+    <!-- History -->
+    <string name="history_title">Transaction History</string>
+    <string name="history_search_hint">Search by name, UPI ID…</string>
+    <string name="history_no_payments">No payments yet\nScan a QR code to make your first payment!</string>
+    <string name="history_no_results">No results found\nTry adjusting your filters or search query.</string>
+    <string name="history_export">Export</string>
+    <string name="history_export_complete">Export complete</string>
+    <string name="history_export_failed">Export failed</string>
+
+    <!-- Merchant -->
+    <string name="merchant_title">Merchant Profile</string>
+    <string name="merchant_transactions">Transactions</string>
+    <string name="merchant_category">Category</string>
+    <string name="merchant_category_default">Merchant</string>
+    <string name="merchant_no_transactions">No transactions with this merchant</string>
+    <string name="merchant_add_favourite">Add to favourites</string>
+    <string name="merchant_remove_favourite">Remove from favourites</string>
+    <string name="merchant_verification_pending">Verification pending</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_payment">Payment</string>
+    <string name="settings_routing_priority">Routing Priority</string>
+    <string name="settings_routing_subtitle">Configure payment method order per operator</string>
+    <string name="settings_sim_preference">SIM Preference</string>
+    <string name="settings_sim_auto">Auto</string>
+    <string name="settings_override">Payment Method Override</string>
+    <string name="settings_override_auto">Auto (recommended)</string>
+    <string name="settings_appearance">Appearance</string>
+    <string name="settings_theme">Theme</string>
+    <string name="settings_theme_system">System default</string>
+    <string name="settings_theme_light">Light</string>
+    <string name="settings_theme_dark">Dark</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_language_english">English</string>
+    <string name="settings_language_hindi">हिंदी</string>
+    <string name="settings_security_privacy">Security &amp; Privacy</string>
+    <string name="settings_permissions">Permissions</string>
+    <string name="settings_permissions_subtitle">Camera, Phone, SIM access</string>
+    <string name="settings_security_status">Security Status</string>
+    <string name="settings_security_subtitle">View integrity check status</string>
+    <string name="settings_about">About OfflinePay</string>
+    <string name="settings_about_description">OfflinePay enables UPI payments without internet using USSD (*99#) and 123PAY (IVR).</string>
+    <string name="settings_privacy_policy">Privacy Policy</string>
+    <string name="settings_licenses">Open Source Licenses</string>
+    <string name="settings_integrity_refresh">Refresh Integrity Check</string>
+    <string name="settings_integrity_refreshed">Integrity check refreshed</string>
+    <string name="settings_integrity_failed">Integrity check failed. Please try when online.</string>
+
+    <!-- Permissions -->
+    <string name="permission_camera">Camera</string>
+    <string name="permission_camera_desc">Required for QR code scanning</string>
+    <string name="permission_phone">Phone (CALL_PHONE)</string>
+    <string name="permission_phone_desc">Required for USSD and 123PAY calls</string>
+    <string name="permission_read_phone_state">Phone State (READ_PHONE_STATE)</string>
+    <string name="permission_read_phone_state_desc">Required for SIM detection</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_welcome">Welcome to OfflinePay</string>
+    <string name="onboarding_offline_payments">Make UPI payments without internet</string>
+    <string name="onboarding_how_it_works">How it works</string>
+    <string name="onboarding_step1">Scan any UPI QR code</string>
+    <string name="onboarding_step2">Payment is processed via USSD or IVR call</string>
+    <string name="onboarding_step3">No internet connection needed!</string>
+    <string name="onboarding_continue">Continue</string>
+    <string name="onboarding_get_started">Get Started</string>
+
+    <!-- Common -->
+    <string name="back">Back</string>
+    <string name="retry">Retry</string>
+    <string name="error_generic">Something went wrong. Please try again.</string>
+    <string name="status_success">Success</string>
+    <string name="status_failure">Failure</string>
+    <string name="status_pending">Pending</string>
+    <string name="status_unknown">Unknown</string>
+
+    <!-- Security Blocked screen (Req 9.12, Req 9.13, Req 9.14, Req 9.5) -->
+    <string name="security_blocked_title">Security Check Failed</string>
+    <string name="security_blocked_body">This app installation could not be verified. For your security, payment features have been disabled.</string>
+    <string name="security_blocked_reinstall_hint">Please reinstall OfflinePay from the Google Play Store.</string>
+
+    <!-- Error messages (Section 13.2 mapping) -->
+    <string name="error_ussd_timeout">USSD session timed out. Please try again or use 123PAY.</string>
+    <string name="error_ussd_network">No cellular service detected. Check your SIM and signal.</string>
+    <string name="error_ussd_permission">CALL_PHONE permission required. Please grant it in Settings.</string>
+    <string name="error_ussd_bank_declined">The bank declined the payment. Please try again.</string>
+    <string name="error_ussd_operator">USSD payments are not supported by your operator.</string>
+    <string name="error_pay123_call_failed">Unable to initiate 123PAY call. Check your phone settings.</string>
+    <string name="error_pay123_no_service">No voice service available on the selected SIM.</string>
+    <string name="error_no_sim">No SIM card detected. Please insert a SIM and try again.</string>
+    <string name="error_no_service">No cellular signal on the selected SIM. Please move to an area with coverage.</string>
+    <string name="error_insufficient_funds">Insufficient funds in your bank account.</string>
+    <string name="error_all_methods_failed">All payment methods failed. Please try again later.</string>
+    <string name="error_payment_generic">Payment failed. Please try again.</string>
+</resources>
